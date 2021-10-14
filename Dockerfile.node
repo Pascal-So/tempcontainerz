@@ -1,0 +1,10 @@
+FROM node
+
+# Provides all kinds of JS related stuff:
+# * yarn
+# * npm
+# * node
+
+WORKDIR /home/node/app
+USER node
+CMD bash
