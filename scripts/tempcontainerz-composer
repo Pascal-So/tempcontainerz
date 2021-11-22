@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -eu
+
+command="bash"
+
+if [[ $# -eq 1 ]]; then
+    command="$1"
+fi
+
+docker run --rm -it -v $(pwd):/app composer $command
