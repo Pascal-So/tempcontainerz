@@ -3,6 +3,9 @@
 * not secure
 * not necessarily up-to-date
 * convenient during development
+* keep your linux clean
+
+![Usage of the PHP container](img/php.gif)
 
 ## How to use
 

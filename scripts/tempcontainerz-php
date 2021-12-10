@@ -6,4 +6,7 @@ if [[ $# -eq 1 ]]; then
     port="$1"
 fi
 
+echo Running PHP server on http://localhost:$port
+echo
+
 docker run --name tempcontainerz-php -p $port:80 -it --rm -v "$(pwd):/var/www/html" tempcontainerz-php
